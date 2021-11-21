@@ -14,7 +14,7 @@ class Increasecounter extends Component {
     }
 }
 
-function mapDispartchProps(dispatch) {
+function mapDispatchProps(dispatch) {
     return {actions : bindActionCreators(increaseCounter,dispatch)}
 }
-export default connect(mapDispartchProps)(Increasecounter); 
+export default connect(mapDispatchProps)(Increasecounter); 
